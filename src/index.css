@@ -1,0 +1,26 @@
+.App{
+  background-color: aquamarine;
+}
+.login{
+  padding: 10%;
+margin:0 10%;
+height: 50vh;
+display: grid;
+place-items: center;
+}
+
+.login form{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 1rem;
+}
+form div{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+button{
+  height: 2rem;
+  background-color: #fff;
+}
